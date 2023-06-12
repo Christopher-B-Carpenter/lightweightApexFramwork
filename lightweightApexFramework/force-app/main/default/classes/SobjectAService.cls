@@ -1,5 +1,6 @@
 public class SobjectAService {
     private DatabaseTransaction databaseTransaction;
+    private ISobjectBSelector sobjectBSelector;
 
     public SobjectService(DatabaseTransaction databaseTransaction) {
         this(new SobjectBSelector(), databaseTransaction);
